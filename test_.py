@@ -48,13 +48,8 @@ def compute_metrics():
     assert estimator is not None, "Model not found"
 
 
-if __name__ == "__main__":
-    test_()
-    
-
-
-
 def test_():
     """Run grading script."""
     assert True
+test_()
    
