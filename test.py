@@ -49,7 +49,7 @@ def compute_metrics():
 
 
 if __name__ == "__main__":
-    run_grading()
+    test_()
     
 
     x_train, x_test, y_true_train, y_true_test = load_datasets()
@@ -63,7 +63,7 @@ if __name__ == "__main__":
     return accuracy_train, accuracy_test
 
 
-def run_grading():
+def test_():
     """Run grading script."""
 
     accuracy_train, accuracy_test = compute_metrics()
